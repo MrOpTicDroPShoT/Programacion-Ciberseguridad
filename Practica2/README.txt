@@ -1,6 +1,1 @@
-2) Power Shell y Bash
-   - 2 scripts 1 en bash y otro en power shell donde utilizen lo siguiente:
-     + una variable
-     + un if
-     + un ciclo
-     + una funcion con parametro
+Practica uno con funciones, condiciones y ciclos.

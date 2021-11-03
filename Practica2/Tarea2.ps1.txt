@@ -1,0 +1,48 @@
+﻿import-module C:\Users\ClanW\Desktop\scripts\Tarea2.psm1
+Write-Host "Tarea 2 - Powershell"
+$z=0
+While ($z -eq 0){
+    Write-Host "***********************Bienvenido***********************" -ForegroundColor Red -BackgroundColor Black
+    Write-Host "**************************Menu**************************" -ForegroundColor Red -BackgroundColor Black
+    Write-Host "1-------------------Obtener equipos---------------------" -ForegroundColor Red -BackgroundColor Black
+    Write-Host "2--------------------Crear equipo-----------------------" -ForegroundColor Red -BackgroundColor Black
+    Write-Host "3-------------------Eliminar equipo---------------------" -ForegroundColor Red -BackgroundColor Black
+    Write-Host "4--------------------Añadir miembro---------------------" -ForegroundColor Red -BackgroundColor Black
+    Write-Host "5----------------Editar imagen de equipo----------------" -ForegroundColor Red -BackgroundColor Black
+    Write-Host "6--------------Crear reporte de equipo------------------" -ForegroundColor Red -BackgroundColor Black
+    Write-Host "7-----------------Finalizar script----------------------" -ForegroundColor Red -BackgroundColor Black
+    Write-Host "********************Que desea hacer?********************" -ForegroundColor Red -BackgroundColor Black
+    Write-Host "Nota: Este script solo funciona despues de haberse conectado a su cuenta microsoft teams" -ForegroundColor Yellow -BackgroundColor Black
+    Write-Host "Para conectarse finalice script e intente con el comando Connect-MicrosoftTeams" -ForegroundColor Yellow -BackgroundColor Black
+    $C = Read-Host
+    if ($C -eq 7){
+    break
+    }
+    elseif($C -eq 1){
+    try{ObtenerEquipos}catch{write-host "Compruebe si ya se conecto a su cuenta microsoft teams antes de iniciar el script" -ForegroundColor Yellow -BackgroundColor Black}
+    Start-Sleep -s 15
+    }
+    elseif($C -eq 2){
+    try{CrearEquipo}catch{write-host "Compruebe si ya se conecto a su cuenta microsoft teams antes de iniciar el script" -ForegroundColor Yellow -BackgroundColor Black}
+    Start-Sleep -s 15
+    }
+    elseif($C -eq 3){
+    try{EliminarEquipo}catch{write-host "Compruebe si ya se conecto a su cuenta microsoft teams antes de iniciar el script" -ForegroundColor Yellow -BackgroundColor Black}
+    Start-Sleep -s 15
+    }
+    elseif($C -eq 4){
+    try{AñadirMiembro}catch{write-host "Compruebe si ya se conecto a su cuenta microsoft teams antes de iniciar el script" -ForegroundColor Yellow -BackgroundColor Black}
+    
+    }
+    elseif($C -eq 5){
+    try{ImagenEquipo}catch{write-host "Compruebe si ya se conecto a su cuenta microsoft teams antes de iniciar el script" -ForegroundColor Yellow -BackgroundColor Black}
+    Start-Sleep -s 15
+    }
+    elseif($C -eq 6){
+    try{ReporteEquipos}catch{write-host "Compruebe si ya se conecto a su cuenta microsoft teams antes de iniciar el script" -ForegroundColor Yellow -BackgroundColor Black}
+    Start-Sleep -s 15
+    }
+    elseif($C -ne 1 -or $C -ne 2 -or $C -ne 3 -or $C -ne 4 -or $C -ne 5 -or $C -ne 6 -or $C -ne 7){
+    $z=0
+    }
+}

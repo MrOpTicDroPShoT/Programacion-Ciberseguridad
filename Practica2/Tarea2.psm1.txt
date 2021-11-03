@@ -1,0 +1,63 @@
+﻿function ObtenerEquipos{
+    $email=""
+    $email = Read-Host "Ingrese el email del usuario a tratar"
+    Get-Team -User $email
+}
+function CrearEquipo{
+    $NombreEquipo = Read-Host "Ingrese el nombre del equipo a crear"
+    $Descripcion = Read-Host "Ingrese una descripcion para su equipo"
+    Write-Host "Creando equipo, espere..."
+    New-Team -DisplayName $NombreEquipo -Description $Descripcion
+}
+function EliminarEquipo{
+    $email = Read-Host "Ingrese el email del dueno del equipo a borrar"
+    Write-Host "Cargando... Un momento."
+    Get-Team -User $email
+    $numero = Read-Host "Ingrese el id del equipo a borrar"
+    Try{
+        Get-Team -User $email -GroupId $numero -ErrorAction Stop
+        $a=""
+        while($a -ne "si"){
+            $a = Read-Host "Confirme si es el equipo que desea borrar, si o no?"
+            $a.ToLower()
+            if($a -eq "si"){
+                Remove-Team -GroupId $numero
+                try{
+                    Get-Team -User $email -GroupId | Out-Null
+                }
+                catch{
+                    "El equipo se removio correctamente"
+                    "Saliendo al menu principal..."
+                }
+            }
+            elseif($a -eq "no"){
+                "Saliendo al menu principal"
+                break
+            }
+            else{
+                write-host "Ingrese un valor valido"
+            }
+        }
+    }catch{
+        "Compruebe el id del equipo"
+    }
+}
+function AñadirMiembro{
+    $email = Read-Host "Ingrese el email para ver el id de los equipos a los que perteneces"
+    Get-Team -User $email
+    $numero = Read-Host "Ingrese el id del equipo"
+    $emaili = Read-Host "Ingrese el email del miembro a agregar"
+    Add-TeamUser -GroupId $numero -User $emaili
+    }
+function ImagenEquipo{
+    $email = Read-Host "Ingrese el email para ver el id de los equipos a los que perteneces"
+    Get-Team -User $email
+    $numero = Read-Host "Ingrese el id del equipo"
+    $ruta = Read-Host "Ingrese la ruta en donde se encuentra el equipo"
+    Set-TeamPicture -GroupId $numero -ImagePath $ruta
+}
+function ReporteEquipos{
+    $email = Read-Host "Ingrese el email para ver el id de los equipos a los que perteneces"
+    $text = Get-Team -User $email  | Select-Object -Property Archived, GroupId, DisplayName | Out-String
+    Set-Content -Value $text -Path ".\Reporte de equipos.txt"
+}
