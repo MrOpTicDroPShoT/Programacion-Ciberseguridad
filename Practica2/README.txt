@@ -1,1 +1,1 @@
-Practica uno con funciones, condiciones y ciclos.
+Practica dos con funciones, condiciones y ciclos.
