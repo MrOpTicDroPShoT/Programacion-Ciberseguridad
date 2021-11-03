@@ -1,0 +1,41 @@
+SVAgcHViaWNhOiAKMjAxLjE0Ny4zNy4yNDkKCklQIHByaXZhZGE6IAoxOTIuMTY4LjEuNjkgMjgwNjoxMDlmOjE2Ojc3NmI6NDFlMDphMjhhOjJkZGY6N2E4NCAyODA2OjEwOWY6MTY6Nzc2YjoyMGM6MjlmZjpmZTk5Ojk3MzAgClN0YXJ0aW5nIE5tYXAgNy44MCAoIGh0dHBzOi8vbm1hcC5vcmcgKSBhdCAyMDIxLTEwLTE1IDE1OjE4IENEVApObWFwIHNjYW4gcmVwb3J0IGZvciAxOTIuMTY4LjEuNzEKSG9zdCBpcyB1cCAoMC4wMDIycyBsYXRlbmN5KS4KTUFDIEFkZHJlc3M6IDRDOjNCOkRGOjc1OjFCOjFDIChVbmtub3duKQpObWFwIHNjYW4gcmVwb3J0IGZvciAxOTIuMTY4LjEuNzMKSG9zdCBpcyB1cCAoMC4wMDA1NHMgbGF0ZW5jeSkuCk1BQyBBZGRyZXNzOiA0MDo4RDo1QzowODo1QzpDMCAoR2lnYS1ieXRlIFRlY2hub2xvZ3kpCk5tYXAgc2NhbiByZXBvcnQgZm9yIDE5Mi4xNjguMS43NApIb3N0IGlzIHVwICgwLjEycyBsYXRlbmN5KS4KTUFDIEFkZHJlc3M6IEEwOjM5OkY3OjIzOkMyOjQzIChMRyBFbGVjdHJvbmljcyAoTW9iaWxlIENvbW11bmljYXRpb25zKSkKTm1hcCBzY2FuIHJlcG9ydCBmb3IgMTkyLjE2OC4xLjc2Ckhvc3QgaXMgdXAgKDAuMTBzIGxhdGVuY3kpLgpNQUMgQWRkcmVzczogNzY6REQ6NTU6NUM6OUU6MTkgKFVua25vd24pCk5tYXAgc2NhbiByZXBvcnQgZm9yIGdwb24taW5maW5pdHVtLm5va2lhLmNvbSAoMTkyLjE2OC4xLjI1NCkKSG9zdCBpcyB1cCAoMC4zN3MgbGF0ZW5jeSkuCk1BQyBBZGRyZXNzOiBDODpGODo2RDpBQzpBRDpGQyAoQWxjYXRlbC1MdWNlbnQgU2hhbmdoYWkgQmVsbCkKTm1hcCBzY2FuIHJlcG9ydCBmb3IgMTkyLjE2OC4xLjY5Ckhvc3QgaXMgdXAuCk5tYXAgZG9uZTogMjU2IElQIGFkZHJlc3NlcyAoNiBob3N0cyB1cCkgc2Nhbm5lZCBpbiAxMS43NSBzZWNvbmRzClN0YXJ0aW5nIE5tYXAgNy44MCAoIGh0dHBzOi8vbm1hcC5vcmcgKSBhdCAyMDIxLTEwLTE1IDE1OjE4IENEVApObWFwIHNjYW4gcmVwb3J0IGZvciAxOTIuMTY4LjEuNjkKSG9zdCBpcyB1cCAoMC4wMDAwMDYwcyBsYXRlbmN5KS4KQWxsIDEwMDAgc2Nhbm5lZCBwb3J0cyBvbiAxOTIuMTY4LjEuNjkgYXJlIGNsb3NlZAoKTm1hcCBkb25lOiAxIElQIGFkZHJlc3MgKDEgaG9zdCB1cCkgc2Nhbm5lZCBpbiAwLjM2IHNlY29uZHMKU3RhcnRpbmcgTm1hcCA3LjgwICggaHR0cHM6Ly9ubWFwLm9yZyApIGF0IDIwMjEtMTAtMTUgMTU6MTggQ0RUCk5tYXAgc2NhbiByZXBvcnQgZm9yIHN0YXRpYy5jdXN0b21lci0yMDEtMTQ3LTM3LTI0OS51bmluZXQubmV0Lm14ICgyMDEuMTQ3LjM3LjI0OSkKSG9zdCBpcyB1cCAoMC4wMDgwcyBsYXRlbmN5KS4KTm90IHNob3duOiA5OTggZmlsdGVyZWQgcG9ydHMKUE9SVCAgICBTVEFURSBTRVJWSUNFCjgwL3RjcCAgb3BlbiAgaHR0cAo0NDMvdGNwIG9wZW4gIGh0dHBzCgpObWFwIGRvbmU6IDEgSVAgYWRkcmVzcyAoMSBob3N0IHVwKSBzY2FubmVkIGluIDcuNzggc2Vjb25kcwo=
+IP pubica: 
+201.147.37.249
+
+IP privada: 
+192.168.1.69 2806:109f:16:776b:41e0:a28a:2ddf:7a84 2806:109f:16:776b:20c:29ff:fe99:9730 
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-10-15 15:18 CDT
+Nmap scan report for 192.168.1.71
+Host is up (0.0022s latency).
+MAC Address: 4C:3B:DF:75:1B:1C (Unknown)
+Nmap scan report for 192.168.1.73
+Host is up (0.00054s latency).
+MAC Address: 40:8D:5C:08:5C:C0 (Giga-byte Technology)
+Nmap scan report for 192.168.1.74
+Host is up (0.12s latency).
+MAC Address: A0:39:F7:23:C2:43 (LG Electronics (Mobile Communications))
+Nmap scan report for 192.168.1.76
+Host is up (0.10s latency).
+MAC Address: 76:DD:55:5C:9E:19 (Unknown)
+Nmap scan report for gpon-infinitum.nokia.com (192.168.1.254)
+Host is up (0.37s latency).
+MAC Address: C8:F8:6D:AC:AD:FC (Alcatel-Lucent Shanghai Bell)
+Nmap scan report for 192.168.1.69
+Host is up.
+Nmap done: 256 IP addresses (6 hosts up) scanned in 11.75 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-10-15 15:18 CDT
+Nmap scan report for 192.168.1.69
+Host is up (0.0000060s latency).
+All 1000 scanned ports on 192.168.1.69 are closed
+
+Nmap done: 1 IP address (1 host up) scanned in 0.36 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-10-15 15:18 CDT
+Nmap scan report for static.customer-201-147-37-249.uninet.net.mx (201.147.37.249)
+Host is up (0.0080s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 7.78 seconds
+
