@@ -1,0 +1,2 @@
+3) APIs
+   - un script (bash, powershell, python) 5 consultas a una api donde al menos 2 sean consultas basadas en una consulta previa
